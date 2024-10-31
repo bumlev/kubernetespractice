@@ -7,11 +7,11 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/bumlev/Kubernetespractice.git
+    repoURL: https://github.com/bumlev/kubernetespractice.git
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
-    namespace: kubernetesPractice
+    namespace: KubernetesPractice
 
   syncPolicy:
     syncOptions:
